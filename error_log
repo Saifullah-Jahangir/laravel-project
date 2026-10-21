@@ -1,0 +1,10 @@
+[12-Aug-2026 07:06:10 UTC] PHP Warning:  require(/home3/clothesd/public_html/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home3/clothesd/public_html/test.php on line 9
+[12-Aug-2026 07:06:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/clothesd/public_html/public/vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home3/clothesd/public_html/test.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/clothesd/public_html/test.php on line 9
+[12-Aug-2026 07:44:48 UTC] PHP Warning:  Undefined variable $response in /home3/clothesd/public_html/index.php on line 30
+[12-Aug-2026 07:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function status() on null in /home3/clothesd/public_html/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home3/clothesd/public_html/index.php on line 30
